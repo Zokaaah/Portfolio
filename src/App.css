@@ -1,0 +1,53 @@
+.Logo{
+  height: 150px;
+  margin-top: -50px;
+}
+body{
+  min-height: 100%;
+}
+button{
+  font-weight: bold;
+}
+.light-theme {
+  background-color: transparent;
+  color: #444444;
+
+}
+.light-theme p{
+  color:#444444 !important;
+}
+
+.light-theme h1{
+  color:#4bbd5c
+  ;
+}
+.light-theme h2{
+  color:#444444 !important;
+}
+.light-theme h3{
+  color:#444444 !important; 
+}
+
+.light-theme button{
+  color:#292a2c;
+}
+
+
+
+.dark-theme {
+  background-image: linear-gradient(to right,#232526, #414345);
+  color: #f8f8f8;
+  height: 100%;
+}
+
+.dark-theme h1{
+  color: #4bbd5c
+  ;
+}
+.dark-theme p{
+  color: white !important;
+}
+
+.dark-theme nav{
+  color: white !important;
+}

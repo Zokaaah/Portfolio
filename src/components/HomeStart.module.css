@@ -1,0 +1,469 @@
+.StartContainer{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.start1{
+    text-align: left;
+    margin-top: 10%;
+    font-size: 22px;
+    color: white;
+    margin-left: 40px;
+    float: left;
+    width: 50%;
+
+
+}
+
+.start1 p{
+    font-size: 18px;
+}
+
+.RedesIcon{
+    display: flex;
+    flex-direction: row;
+}
+.RedesIcon p{
+    margin-right: 20px;
+}
+
+.icon{
+    color:#4bbd5c;
+}
+
+.btnContato{
+background-color:#4bbd5c;
+height: 40px;
+color: #fff !important;
+border-radius: 7px;
+width: 200px;
+border: none;
+cursor: pointer;
+font-size: 0.7em;
+margin-right: 3%;
+margin-top: 5%;
+
+}
+
+.btnCurriculo{
+background-color:transparent;
+outline: #4bbd5c;
+
+height: 40px;
+color: #fff;
+border-radius: 7px;
+width: 200px;
+border: solid 1px #4bbd5c;
+cursor: pointer;
+font-size: 0.7em;
+margin-top: 5%;
+
+
+}
+
+
+.StartImg{
+    height: 450px;
+    margin-top: 4%;
+    margin-left: 4%;
+    float: right;
+    border-radius: 100%;
+
+
+
+}
+.start2{
+    margin-left: 10% ;
+
+    
+}
+
+
+
+
+/* .text1{
+} */
+
+.ColorText{
+    color:#4bbd5c
+    ;
+    font-weight: bold;
+
+}
+
+.LogoText{
+    color: #4bbd5c
+    !important;
+}
+
+
+
+
+.SobreContainer{
+    text-align: center;
+    color:#4bbd5c
+    ;
+    font-size: 20px;
+    margin-bottom: 50px !important;
+    width: 100% !important;
+    position: relative;
+    float: left;
+    padding: 5%;
+
+}
+
+.SobreContainer p{
+    color:#718096;
+    font-size: 18px;
+    padding: 3%;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        margin:0;
+        padding: 0;
+
+    }
+    .StartContainer{
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+
+    .start1{
+        width: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+
+    .StartImg{
+        margin-top: 0px !important;
+        height: 350px;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    
+    }
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    .StartContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+
+
+    .start1 {
+        text-align: center;
+        margin-top: 0px !important;
+        width: 100% !important;
+        padding: 0px !important;
+        float: left;
+
+      }
+  
+  
+      .start1 p{
+          text-align: center;
+          margin-bottom: 0px;
+      }
+
+
+      .start2{
+        border: red solid 1px;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+
+
+      }
+     
+      .StartImg{
+        align-items: center !important;
+        border: red solid 1px;
+      } */
+
+      
+  
+
+/* @media (min-width: 800px) and (max-width: 1080px)  {
+    .start1{
+        text-align: left;
+        margin-top: 10%;
+        font-size: 18px;
+        color: white;
+        margin-left: 40px;
+        float: left;
+        width: auto;
+    }
+    .start2{
+        margin:0 !important;
+        display: block;
+    }
+} */
+
+
+
+  @media (min-width: 1920px) and (max-width: 2560px)  {
+    
+    .StartContainer{
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+    .start1 {
+        text-align: left;
+        height: 495px !important;
+        margin-left: 12%;
+        font-size: 2em;
+        
+
+      }
+  
+      .start1 p{
+          text-align: left;
+          font-size: 20px;
+      }
+
+      .StartImg{
+    height: 450px;
+    border-radius: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+
+      }
+  
+      .SobreContainer{
+          margin-top: 20px;
+          text-align: center;
+          color:#4bbd5c
+          ;
+          font-size: 2em;
+      }
+     
+      
+      .SobreContainer p{
+          color:#718096;
+          font-size: 18px;
+          padding: 3%;
+          
+      }
+
+  }
+
+
+
+
+.CompContainer{
+    width: 100%;
+    color: white;
+    border-radius: 7%;
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+.Comp1{
+    width: 50%;
+    background-color: #4bbd5c
+    ;
+    float: left;
+    height: 400px;
+    padding: 7%;
+    color:#d3d3d3;
+
+
+    -webkit-transition: width 1s;
+    transition: width 1s;
+
+    
+    
+}
+
+.Comp2{
+    width: 50%;
+    background-color: #273238;
+    float: left;
+    height: 400px;
+    padding: 7%;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+
+    color:#d3d3d3;
+
+    
+}
+
+.Comp1:hover{
+    width: 70%;
+    color: white;
+
+
+    
+
+}
+
+.CompContainer p{
+    color: white !important;
+}
+
+.Comp1:hover ~ .Comp2{
+    width:30% !important;
+}
+
+
+.Comp2:hover{
+    width: 100%;
+    color: white;
+    
+ 
+}
+
+
+.Comp2:hover + .Comp1{
+    width: 20% !important;
+    float: left;
+   
+}
+
+.projetos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projetoposicao1{
+width: 60%;
+}
+.projetoposicao2{
+    width: 40%;
+
+}
+
+.img{
+width: 100%;
+height: 100%;
+border-radius: 40px 40px 40px;
+padding: 5%;
+
+
+transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
+.img:hover{
+    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  -moz-transform: scale(1.0);
+}
+
+
+.txt{
+    text-align: center;
+    font-weight: bold;
+    margin-top:25%
+}
+
+.titles{
+    margin:5%;
+}
+
+.btn1_projetos{
+    width:200px;
+    height: 40px;
+    width: 200px;
+    color: #fff !important;
+    background-color: #292a2c;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    margin:5%
+
+}
+
+.btn1_projetos:hover{
+    width: 200px;
+    color: #292a2c !important;
+    background-color: #fff;
+    border-radius: 7px;
+    border: solid 1px #292a2c;
+    margin-right: 5%;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.Contatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+}
+
+.icon_contatos{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+.icons{
+    margin-right: 5%;
+    font-weight: bold;
+    color: #292a2c;
+}
+
+.subContatos{
+    font-size: 12px;
+    color: #292a2c;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+
+
+
+
