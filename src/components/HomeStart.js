@@ -5,12 +5,29 @@ import zokah from "../img/zokah.png";
 import TabMenu from "./TabMenu";
 
 import InfoIcon from "@mui/icons-material/Info";
+
+//IMAGES
 import needweather from "../img/needweather.png";
 import needprojects from "../img/needprojects.png";
 import email from "../img/email.png";
 import linkedin from "../img/linkedin.png";
 import github from "../img/github.png";
 import instagram from "../img/instagram.png";
+import reacticon from "../img/reacticon.png"
+import bootstrap from "../img/bootstrap.png"
+import figma from "../img/figma.png"
+import mui from "../img/mui.png"
+import node from "../img/node.png"
+import php from "../img/php.png"
+import sql from "../img/sql.png"
+import xd from "../img/xd.png"
+import laravel from "../img/laravel.png"
+import js from "../img/js.png"
+import html5 from "../img/html5.png"
+import css from "../img/css.png"
+
+
+
 
 const HomeStart = () => {
   return (
@@ -48,16 +65,30 @@ const HomeStart = () => {
           <InfoIcon />
         </div>
       </div>
+      <h1 className={styles.titles}>Tecnologias e linguagens</h1>
 
       <div className={styles.CompContainer}>
         <div className={styles.Comp1}>
           <h4>Front-end</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur </p>
+          <img className={styles.icon_comp} src={reacticon} alt="" />
+          <img className={styles.icon_comp} src={figma} alt="" />
+          <img className={styles.icon_comp} src={xd} alt="" />
+          <img className={styles.icon_comp} src={mui} alt="" />
+          <img className={styles.icon_comp} src={js} alt="" />
+          <img className={styles.icon_comp} src={html5} alt="" />
+          <img className={styles.icon_comp} src={css} alt="" />
+          <img className={styles.icon_comp} src={bootstrap} alt="" />
+
+
+
         </div>
 
         <div className={styles.Comp2}>
           <h4>Back-End</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur </p>
+          <img className={styles.icon_comp} src={node} alt="" />
+          <img className={styles.icon_comp} src={php} alt="" />
+          <img className={styles.icon_comp} src={sql} alt="" />
+          <img className={styles.icon_comp} src={laravel} alt="" />{" "}
         </div>
       </div>
 
