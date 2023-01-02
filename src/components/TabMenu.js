@@ -58,10 +58,15 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
+        2018 - 2020<br/>
       Desenvolvi um projeto que tinha como objetivo monitorar as principais bacias hidrográficas do Brasil, utilizava de linguagens de programação e ferramentas especificas (Shell Script, Fortran90 e Grads). </TabPanel>
       <TabPanel value={value} index={1}>
+      2020 - 2021<br/>
+
       Suporte ao usuário, administração de redes e infraestrutura, tratativa de dados, manutenção do CRM da empresa, manutenção de computadores, configuração de acesso remoto, Windows Server, administração e monitoramento de rede Voip, configuração de servidores de e-mail (Pop, Imap).      </TabPanel>
       <TabPanel value={value} index={2}>
+      2021 - Atual<br/>
+
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </TabPanel>
     </Box>

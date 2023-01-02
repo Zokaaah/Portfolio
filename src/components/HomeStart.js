@@ -13,21 +13,18 @@ import email from "../img/email.png";
 import linkedin from "../img/linkedin.png";
 import github from "../img/github.png";
 import instagram from "../img/instagram.png";
-import reacticon from "../img/reacticon.png"
-import bootstrap from "../img/bootstrap.png"
-import figma from "../img/figma.png"
-import mui from "../img/mui.png"
-import node from "../img/node.png"
-import php from "../img/php.png"
-import sql from "../img/sql.png"
-import xd from "../img/xd.png"
-import laravel from "../img/laravel.png"
-import js from "../img/js.png"
-import html5 from "../img/html5.png"
-import css from "../img/css.png"
-
-
-
+import reacticon from "../img/reacticon.png";
+import bootstrap from "../img/bootstrap.png";
+import figma from "../img/figma.png";
+import mui from "../img/mui.png";
+import node from "../img/node.png";
+import php from "../img/php.png";
+import sql from "../img/sql.png";
+import xd from "../img/xd.png";
+import laravel from "../img/laravel.png";
+import js from "../img/js.png";
+import html5 from "../img/html5.png";
+import css from "../img/css.png";
 
 const HomeStart = () => {
   return (
@@ -54,46 +51,38 @@ const HomeStart = () => {
         <div className={styles.SobreContainer}>
           <h1>Sobre</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Olá, sou Gabriel de Oliveira (ou zokah), sou desenvolvedor web Junior, portifólio desenvolvido com o intuito de divulgar meus projetos pessoais e academicos.
+            possuo experiencia nas linguagens React js, 
           </p>
           <InfoIcon />
         </div>
       </div>
-      <h1 className={styles.titles}>Tecnologias e linguagens</h1>
+      <h1 className={styles.titles}>Tecnologias e Linguagens</h1>
 
       <div className={styles.CompContainer}>
         <div className={styles.Comp1}>
           <h4>Front-end</h4>
-          <img className={styles.icon_comp} src={reacticon} alt="" />
-          <img className={styles.icon_comp} src={figma} alt="" />
-          <img className={styles.icon_comp} src={xd} alt="" />
-          <img className={styles.icon_comp} src={mui} alt="" />
-          <img className={styles.icon_comp} src={js} alt="" />
-          <img className={styles.icon_comp} src={html5} alt="" />
-          <img className={styles.icon_comp} src={css} alt="" />
-          <img className={styles.icon_comp} src={bootstrap} alt="" />
-
-
-
+          <img className={styles.icon_comp} src={reacticon} alt="React JS" />
+          <img className={styles.icon_comp} src={figma} alt="Figma" />
+          <img className={styles.icon_comp} src={xd} alt="Adobe XD" />
+          <img className={styles.icon_comp} src={mui} alt="Material UI" />
+          <img className={styles.icon_comp} src={js} alt="JavaScript" />
+          <img className={styles.icon_comp} src={html5} alt="HTML5" />
+          <img className={styles.icon_comp} src={css} alt="CSS3" />
+          <img className={styles.icon_comp} src={bootstrap} alt="Bootstrap" />
         </div>
 
         <div className={styles.Comp2}>
           <h4>Back-End</h4>
-          <img className={styles.icon_comp} src={node} alt="" />
-          <img className={styles.icon_comp} src={php} alt="" />
-          <img className={styles.icon_comp} src={sql} alt="" />
-          <img className={styles.icon_comp} src={laravel} alt="" />{" "}
+          <img className={styles.icon_comp} src={node} alt="Node JS" />
+          <img className={styles.icon_comp} src={php} alt="PHP" />
+          <img className={styles.icon_comp} src={sql} alt="MYSQL" />
+          <img className={styles.icon_comp} src={laravel} alt="Laravel" />{" "}
         </div>
       </div>
 
       <div className={styles.ExpContainer}>
-        <h1 className={styles.titles}>Experiencia</h1>
+        <h1 className={styles.titles}>Experiência</h1>
         <div className="teste1"></div>
 
         <TabMenu className="ConteudoTab" />
@@ -133,6 +122,8 @@ const HomeStart = () => {
         <div className={styles.projetoposicao1}>
           <img className={styles.img} src={needweather} alt="" />
         </div>
+
+        <h4 className={styles.titles}> Ver todos os projetos</h4>
       </div>
 
       <div className={styles.titles}>

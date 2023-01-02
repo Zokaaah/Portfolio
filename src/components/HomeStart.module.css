@@ -119,11 +119,10 @@ margin-top: 5%;
 
 .Comp1{
     width: 50%;
-    background-color: #4bbd5c
-    ;
+    background-color: #4bbd5c;
     float: left;
-    height: 400px;
-    padding: 7%;
+    height: 500px;
+    padding: 3%;
     color:#d3d3d3;
     -webkit-transition: width 1s;
     transition: width 1s;
@@ -136,8 +135,8 @@ margin-top: 5%;
     width: 50%;
     background-color: #273238;
     float: left;
-    height: 400px;
-    padding: 7%;
+    height: 500px;
+    padding: 3%;
     -webkit-transition: width 1s;
     transition: width 1s;
     color:#d3d3d3;  
@@ -338,7 +337,41 @@ transition: all 0.2s;
     
     }
 
-   
+    .CompContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .Comp1{
+        width: 100% !important;
+        background-color: #4bbd5c;
+        height: auto;
+        padding: 3%;
+        color:#d3d3d3;
+        display: block;
+    
+        
+        
+    }
+    
+    .Comp2{
+        min-width: 100% !important;
+        background-color: #273238;
+        height: auto;
+        padding: 3%;
+        color:#d3d3d3;  
+        display: block;
+
+    }
+    
+    
+    
+    .CompContainer p{
+        color: white !important;
+    }
+
     
     .projetoposicao1{
     width: 100% !important;
@@ -363,7 +396,6 @@ transition: all 0.2s;
     .txt{
         text-align: center;
         font-weight: bold;
-        margin-top:25%;
         margin-left: 2%;
         margin-right: 2%;
     }
@@ -371,12 +403,14 @@ transition: all 0.2s;
     .Contatos{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         align-content: center;
-        margin: auto;
         height: 100px;
     }
+
+   
     
     .icon_contatos{
         height: 30px;

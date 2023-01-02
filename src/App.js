@@ -38,8 +38,8 @@ function App() {
           <nav className={responsivo.nav}>
             <ul className={responsivo.menu}>
               <li>Projetos</li>
-              <li>Experiencia</li>
-              <li>Curriculo</li>
+              <li>Experiência</li>
+              <li>Home</li>
             </ul>
           </nav>
         </header>

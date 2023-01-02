@@ -21,7 +21,7 @@ function Navbar() {
             
             <li>Projetos</li>
             <li>Experiencia</li>
-            <li>Curriculo</li>
+            <li>Home</li>
           </ul>
         </nav>
       </header>
