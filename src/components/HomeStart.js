@@ -81,12 +81,11 @@ const HomeStart = () => {
         </div>
       </div>
 
+      <h1 className={styles.titles}>Experiência</h1>
+
       <div className={styles.ExpContainer}>
-        <h1 className={styles.titles}>Experiência</h1>
-        <div className="teste1"></div>
 
         <TabMenu className="ConteudoTab" />
-        <div className="teste2"></div>
       </div>
 
       <div className={styles.ProjectContainer}>
