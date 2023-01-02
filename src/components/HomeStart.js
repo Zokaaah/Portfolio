@@ -82,8 +82,10 @@ const HomeStart = () => {
             O Need projects é uma plataforma de gerenciamento de projetos
             coolaborativos online
           </p>
-          <button className={styles.btn1_projetos}>Ver projeto</button>
-          <button className={styles.btn1_projetos}>GitHub</button>
+          <div className={styles.container_btn}>
+            <button className={styles.btn1_projetos}>Ver projeto</button>
+            <button className={styles.btn1_projetos}>GitHub</button>
+          </div>
         </div>
 
         {/* projeto2 */}
@@ -92,8 +94,10 @@ const HomeStart = () => {
             O Need Weather é uma plataforma que exibe a condição climatica atual
             da localidade digitada pelo usuario
           </p>
-          <button className={styles.btn1_projetos}>Ver projeto</button>
-          <button className={styles.btn1_projetos}>GitHub</button>
+          <div className={styles.container_btn}>
+            <button className={styles.btn1_projetos}>Ver projeto</button>
+            <button className={styles.btn1_projetos}>GitHub</button>
+          </div>
         </div>
         <div className={styles.projetoposicao1}>
           <img className={styles.img} src={needweather} alt="" />
@@ -104,11 +108,6 @@ const HomeStart = () => {
         <h1>Contatos</h1>
       </div>
       <div className={styles.Contatos}>
-        <div className={styles.icons}>
-          <img className={styles.icon_contatos} src={email} alt="" />
-          <h4>Email</h4>
-          <p className={styles.subContatos}>gabriel.oliveira@</p>
-        </div>
         <div className={styles.icons}>
           <img className={styles.icon_contatos} src={linkedin} alt="" />
           <p>linkedin</p>
@@ -123,6 +122,11 @@ const HomeStart = () => {
           <img className={styles.icon_contatos} src={github} alt="" />
           <p>Github</p>
           <p className={styles.subContatos}>@Zokaah</p>
+        </div>
+        <div className={styles.icons}>
+          <img className={styles.icon_contatos} src={email} alt="" />
+          <p>E-mail</p>
+          <p className={styles.subContatos}>gabriel.oliveira@hotmail.com</p>
         </div>
       </div>
     </div>

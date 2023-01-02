@@ -22,7 +22,7 @@ function App() {
         />
 
         <header className={responsivo.header}>
-          <Switch
+          <Switch className="switch_button"
           color="success"
             onChange={() => setDarkTheme((prevTheme) => !prevTheme)}
           ></Switch>{" "}

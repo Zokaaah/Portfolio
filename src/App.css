@@ -2,6 +2,8 @@
   height: 150px;
   margin-top: -50px;
 }
+
+
 body{
   min-height: 100%;
 }
@@ -50,4 +52,10 @@ button{
 
 .dark-theme nav{
   color: white !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .switch_button{
+    margin-top: 3.5%;
+  }
 }
