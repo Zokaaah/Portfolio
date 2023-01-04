@@ -8,7 +8,28 @@ import img2 from "../img/needweather.png";
 import img3 from "../img/needprojects.png";
 import img4 from "../img/fateclub.jpg";
 
-const images = [img2, img1, img3, img4];
+const images = [
+  {
+    image: img2,
+    name: "Need Weather",
+    link: "https://need-weather.vercel.app",
+    desc: "Projeto desenvolvido com react JS que exibe dados climáticos da cidade digitada pelo usuario",
+  },
+  {
+    image: img1,
+    name: "Need Price",
+    link: "https://need-price.vercel.app",
+    desc: "Pequeno projeto desenvolvido em React JS, com intuito de consumir e exibir dados de uma API de cotação de moedas",
+  },
+  {
+    image: img3,
+    name: "Need Projects",
+    link: "https://need-weather.vercel.app",
+    desc: "Gerenciador de projetos coletivos,projeto ainda está em processo de desenvolvimento",
+  },
+  { image: img4, name: "Fateclub", link: "https://need-weather.vercel.app",
+desc:"Projeto academico desenvolvido com intuito de ser uma rede social interna dentro da instituição Fatec Guaratinguetá" },
+];
 
 const Home = () => {
   const slider = useRef();
@@ -34,7 +55,13 @@ const Home = () => {
           >
             {images.map((image) => (
               <motion.div className={style.item} key={image}>
-                <img src={image} alt="texto" />
+                <img src={image.image} alt="texto" />
+                <div className={style.SubContainer}>
+                  <p className={style.desc}>{image.desc}</p>
+                  <button className={style.btn_projeto}>
+                    <a href={image.link}>Ver projeto</a>
+                  </button>
+                </div>
               </motion.div>
             ))}
           </motion.div>

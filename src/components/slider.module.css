@@ -1,58 +1,3 @@
-.section_container{
-    /* background-image: url('../images/bkg.jpg');
-    background-repeat: no-repeat;
-    background-size:cover; */
-    height: 400px;
-}
-.Home_title{
-    font-size: 38px;
-    color: #0f50f6;
-    padding: 10px;
-    font-weight: bold;
-    width:85%;
-    margin: auto;
-    
-}
-
-.Home_title span{
-    color:#0f50f6;
-
-}
-
-
-.btn_start{
-    border-radius: 7px;
-    height: 50px;
-    width: 250px;
-    background-color: #0f50f6;
-    color: white;
-    border: none;
-    font-size: 16px;
-    margin: 10px;
-    font-weight: bold;
-}
-
-.btn_sobre{
-    border-radius: 7px;
-    height: 50px;
-    width: 250px;
-    background-color: #292a2c;
-    color: white;
-    border: none;
-    font-size: 16px;
-    font-weight: bold;
-
-}
-
-.features{
-width: 100%;
-}
-
-h1{
-    text-align: left;
-    margin: 5%;
-}
-
 .sliderContainer{
     width: 100%;
     cursor:grab;
@@ -60,88 +5,52 @@ h1{
     max-width: 95%;
 
 }
-hr{
-    margin-top: 7%;
-    background-color: #0f50f6;
-    height: 1.5px;
-    width: 85%;
-}
-
-
-.text{
-    color: #292a2c;
-    font-size: 16px !important;
-    font-weight: none !important;
-    width: 75%;
-}
 
 .inner{
     display: flex;
     justify-content: space-between;
 }
 
-
 .item{
     margin-right: 5%;
-
-    border: 1px #292a2c 1px;
-    
+    border: 1px #292a2c 1px;    
 }
 
 .item img{
-    width: 500px;
+    width: 700px;
     height: 300px;
     border-radius: 7px;
     pointer-events: none;
 }
 
 
-/* INFOS */
-
-.infosContainer{
-    margin: 1;
-}
-
-.Section2{
-    font-size: 28px;
-    text-align: left;
-    margin: 5%;
-}
-
-.Section2 span{
-    color:#0f50f6
-}
-
-.infos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-   
-}
-
-.info1{
-    text-align: left !important;
-    width:50% ;
-}
-
-.info2{
-    text-align: left !important;
-
-    width:50% ;
-
-}
-
-.Info_icon{
-    margin-left: 5%;
+.desc{
+    text-align: center;
+    width: 100%;
     display: block;
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
+    padding: 2%;
 }
 
-.text2{
-    text-align: justify;
-    margin: 5%;
+.btn_projeto{
+    background-color: #292a2c;
+    color: #fff !important;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 1%;
 }
+
+a:visited{
+    color: #fff;
+}
+
+.SubContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
 
