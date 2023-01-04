@@ -13,13 +13,13 @@ const images = [
     image: img2,
     name: "Need Weather",
     link: "https://need-weather.vercel.app",
-    desc: "Projeto desenvolvido com react JS que exibe dados climáticos da cidade digitada pelo usuario",
+    desc: "Need Weather - Projeto desenvolvido com react JS que exibe dados climáticos da cidade digitada pelo usuario",
   },
   {
     image: img1,
     name: "Need Price",
     link: "https://need-price.vercel.app",
-    desc: "Pequeno projeto desenvolvido em React JS, com intuito de consumir e exibir dados de uma API de cotação de moedas",
+    desc: "Need Price - Pequeno projeto desenvolvido em React JS, com intuito de consumir e exibir dados de uma API de cotação de moedas",
   },
   {
     image: img3,

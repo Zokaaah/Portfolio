@@ -5,7 +5,6 @@ function Navbar() {
   return (
     <div>
       <header className={responsivo.header}>
-        <h1 className={responsivo.LogoText}>GO</h1>
         <input
           className={responsivo.side_menu}
           type="checkbox"
