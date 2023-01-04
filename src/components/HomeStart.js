@@ -3,16 +3,11 @@ import React from "react";
 import styles from "./HomeStart.module.css";
 import zokah from "../img/zokah.png";
 import TabMenu from "./TabMenu";
-
+import Slider from "./Slider";
 import InfoIcon from "@mui/icons-material/Info";
 
 //IMAGES
-import needweather from "../img/needweather.png";
-import needprojects from "../img/needprojects.png";
-import email from "../img/email.png";
-import linkedin from "../img/linkedin.png";
-import github from "../img/github.png";
-import instagram from "../img/instagram.png";
+
 import reacticon from "../img/reacticon.png";
 import bootstrap from "../img/bootstrap.png";
 import figma from "../img/figma.png";
@@ -20,6 +15,8 @@ import mui from "../img/mui.png";
 import node from "../img/node.png";
 import php from "../img/php.png";
 import sql from "../img/sql.png";
+import python from "../img/python.png";
+
 import xd from "../img/xd.png";
 import laravel from "../img/laravel.png";
 import js from "../img/js.png";
@@ -51,8 +48,10 @@ const HomeStart = () => {
         <div className={styles.SobreContainer}>
           <h1>Sobre</h1>
           <p>
-            Olá, sou Gabriel de Oliveira (ou zokah), sou desenvolvedor web Junior, portifólio desenvolvido com o intuito de divulgar meus projetos pessoais e academicos.
-            possuo experiencia nas linguagens React js, 
+            Olá, sou Gabriel de Oliveira (ou zokah), sou desenvolvedor web
+            Junior, portifólio desenvolvido com o intuito de divulgar meus
+            projetos pessoais e academicos. possuo experiencia nas linguagens
+            React js,
           </p>
           <InfoIcon />
         </div>
@@ -78,78 +77,23 @@ const HomeStart = () => {
           <img className={styles.icon_comp} src={php} alt="PHP" />
           <img className={styles.icon_comp} src={sql} alt="MYSQL" />
           <img className={styles.icon_comp} src={laravel} alt="Laravel" />{" "}
+          <img className={styles.icon_comp} src={python} alt="Pyton" />{" "}
         </div>
       </div>
 
       <h1 className={styles.titles}>Experiência</h1>
 
       <div className={styles.ExpContainer}>
-
         <TabMenu className="ConteudoTab" />
       </div>
 
       <div className={styles.ProjectContainer}>
         <h1 className={styles.titles}>Projetos</h1>
       </div>
-      <div className={styles.projetos}>
-        {/* projeto1 */}
-        <div className={styles.projetoposicao1}>
-          <img className={styles.img} src={needprojects} alt="" />
-        </div>
-        <div className={styles.projetoposicao2}>
-          <p className={styles.txt}>
-            O Need projects é uma plataforma de gerenciamento de projetos
-            coolaborativos online
-          </p>
-          <div className={styles.container_btn}>
-            <button className={styles.btn1_projetos}>Ver projeto</button>
-            <button className={styles.btn1_projetos}>GitHub</button>
-          </div>
-        </div>
+          <Slider/>
+        {/* <h4 className={styles.titles}> Ver todos os projetos</h4> */}
 
-        {/* projeto2 */}
-        <div className={styles.projetoposicao2}>
-          <p className={styles.txt}>
-            O Need Weather é uma plataforma que exibe a condição climatica atual
-            da localidade digitada pelo usuario
-          </p>
-          <div className={styles.container_btn}>
-            <button className={styles.btn1_projetos}>Ver projeto</button>
-            <button className={styles.btn1_projetos}>GitHub</button>
-          </div>
-        </div>
-        <div className={styles.projetoposicao1}>
-          <img className={styles.img} src={needweather} alt="" />
-        </div>
-
-        <h4 className={styles.titles}> Ver todos os projetos</h4>
-      </div>
-
-      <div className={styles.titles}>
-        <h1>Contatos</h1>
-      </div>
-      <div className={styles.Contatos}>
-        <div className={styles.icons}>
-          <img className={styles.icon_contatos} src={linkedin} alt="" />
-          <p>linkedin</p>
-          <p className={styles.subContatos}>@GabrielOliveira</p>
-        </div>
-        <div className={styles.icons}>
-          <img className={styles.icon_contatos} src={instagram} alt="" />
-          <p>Instagram</p>
-          <p className={styles.subContatos}>@gabriel_zokah</p>
-        </div>
-        <div className={styles.icons}>
-          <img className={styles.icon_contatos} src={github} alt="" />
-          <p>Github</p>
-          <p className={styles.subContatos}>@Zokaah</p>
-        </div>
-        <div className={styles.icons}>
-          <img className={styles.icon_contatos} src={email} alt="" />
-          <p>E-mail</p>
-          <p className={styles.subContatos}>gabriel.oliveira@hotmail.com</p>
-        </div>
-      </div>
+  
     </div>
   );
 };

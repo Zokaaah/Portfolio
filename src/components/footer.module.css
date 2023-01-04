@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    background-color:#292a2c;
+    color: white;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.rodape h3{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.icons{
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.icontitle{
+    font-weight: bold;
+}
+
+.colortext{
+    color: #4bbd5c;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        background-color:#292a2c;
+        color: white;
+
+    }
+
+    
+    
+}

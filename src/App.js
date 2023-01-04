@@ -3,6 +3,8 @@ import HomeStart from "./components/HomeStart";
 import React from "react";
 import responsivo from "./components/Navbar.module.css";
 import { Switch } from "@mui/material";
+import Footer from "./components/Footer.js";
+
 
 function App() {
   const [darkTheme, setDarkTheme] = React.useState(true);
@@ -45,6 +47,8 @@ function App() {
         </header>
         <HomeStart />
       </div>
+      <Footer/>
+      
     </div>
   );
 }
