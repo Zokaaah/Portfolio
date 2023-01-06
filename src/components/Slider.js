@@ -27,8 +27,12 @@ const images = [
     link: "https://need-weather.vercel.app",
     desc: "Gerenciador de projetos coletivos,projeto ainda está em processo de desenvolvimento",
   },
-  { image: img4, name: "Fateclub", link: "https://need-weather.vercel.app",
-desc:"Projeto academico desenvolvido com intuito de ser uma rede social interna dentro da instituição Fatec Guaratinguetá" },
+  {
+    image: img4,
+    name: "Fateclub",
+    link: "https://need-weather.vercel.app",
+    desc: "Projeto academico desenvolvido com intuito de ser uma rede social interna dentro da instituição Fatec Guaratinguetá",
+  },
 ];
 
 const Home = () => {
@@ -66,6 +70,9 @@ const Home = () => {
             ))}
           </motion.div>
         </motion.div>
+        <div className={style.lastDiv}>
+          <button className={style.btn_verTodos}>Ver todos os projetos</button>
+        </div>
       </div>
     </div>
   );

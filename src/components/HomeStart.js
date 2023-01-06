@@ -48,10 +48,10 @@ const HomeStart = () => {
         <div className={styles.SobreContainer}>
           <h1>Sobre</h1>
           <p>
-            Olá, sou Gabriel de Oliveira (ou zokah), sou desenvolvedor web
-            Junior, portifólio desenvolvido com o intuito de divulgar meus
-            projetos pessoais e academicos. possuo experiencia nas linguagens
-            React js,
+            Meu nome é Gabriel de Oliveira (ou Zokah), nascido em Lorena-Sp,
+            recém formado em Análises e Desenvolvimento de Sistemas na Fatec
+            Guaratinguetá, desenvolvedor Web e administrador de redes, este é
+            meu portifólio, onde mostro um pouco de meu trabalho e expêriencias.
           </p>
           <InfoIcon />
         </div>
@@ -90,10 +90,8 @@ const HomeStart = () => {
       <div className={styles.ProjectContainer}>
         <h1 className={styles.titles}>Projetos</h1>
       </div>
-          <Slider/>
-        {/* <h4 className={styles.titles}> Ver todos os projetos</h4> */}
-
-  
+      <Slider />
+      {/* <h4 className={styles.titles}> Ver todos os projetos</h4> */}
     </div>
   );
 };

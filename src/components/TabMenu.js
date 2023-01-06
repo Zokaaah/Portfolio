@@ -12,8 +12,8 @@ function TabPanel(props) {
     <div
       role="tabpanel"
       hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
+      id={`vertical-tabpanel-${index}`}
+      aria-labelledby={`vertical-tab-${index}`}
       {...other}
     >
       {value === index && (
@@ -33,12 +33,12 @@ TabPanel.propTypes = {
 
 function a11yProps(index) {
   return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
+    id: `vertical-tab-${index}`,
+    'aria-controls': `vertical-tabpanel-${index}`,
   };
 }
 
-export default function BasicTabs() {
+export default function VerticalTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -46,29 +46,46 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'darkcyan' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" 
-         textColor="inherit"
-         indicatorColor="inherit"
-         centered>
-          <Tab label="Cptec Inpe" {...a11yProps(0)} />
-          <Tab label="Precisa Cobranças" {...a11yProps(1)} />
-          <Tab label="MBD Soluções" {...a11yProps(2)} />
-        </Tabs>
-      </Box>
-      <TabPanel value={value} index={0}>
-        2018 - 2020<br/>
-      Desenvolvi um projeto que tinha como objetivo monitorar as principais bacias hidrográficas do Brasil, utilizava de linguagens de programação e ferramentas especificas (Shell Script, Fortran90 e Grads). </TabPanel>
-      <TabPanel value={value} index={1}>
-      2020 - 2021<br/>
+    <Box
+      sx={{ flexGrow: 1, bgcolor: '#273238',color:"#4bbd5c",  display: 'flex', height: 324, padding:'2%' }}
+    >
+      <Tabs
+        orientation="vertical"
+        variant="scrollable"
+        textColor='#fff'
+        TabIndicatorProps={{style: {background:'#4bbd5c'}}}        value={value}
+        onChange={handleChange}
+        aria-label="Vertical tabs example"
+        sx={{ borderRight: 1, borderColor: 'divider', color:"#a6c" }}
+      >
+        <Tab sx={{color:"#fff", padding:'15%'}} label="Cptec Inpe" {...a11yProps(0)} />
+        <Tab sx={{color:"#fff", padding:'15%'}} label="Precisa Cobranças" {...a11yProps(1)} />
+        <Tab sx={{color:"#fff", padding:'15%'}}label="MBD Soluções" {...a11yProps(2)} />
 
-      Suporte ao usuário, administração de redes e infraestrutura, tratativa de dados, manutenção do CRM da empresa, manutenção de computadores, configuração de acesso remoto, Windows Server, administração e monitoramento de rede Voip, configuração de servidores de e-mail (Pop, Imap).      </TabPanel>
-      <TabPanel value={value} index={2}>
-      2021 - Atual<br/>
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       
+      </Tabs>
+      <TabPanel sx={{color:"#4bbd5c"}} value={value} index={0}>
+      <div>
+       <h1>Cptec Inpe</h1>
+       <p>2018 - 2020</p>
+       <p></p>
+       </div>
       </TabPanel>
+      <TabPanel sx={{color:"#4bbd5c"}} value={value} index={1}>
+      <div>
+       <h1>Precisa Cobranças</h1>
+       <p>2020 - 2021</p>
+       <p></p>
+       </div>
+      </TabPanel>
+      <TabPanel sx={{color:"#4bbd5c"}} value={value} index={2}>
+      <div>
+       <h1>MBD Soluções</h1>
+       <p>2021 - Atual</p>
+       <p></p>
+       </div>
+      </TabPanel>
+   
     </Box>
   );
 }
