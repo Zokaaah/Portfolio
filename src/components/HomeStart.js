@@ -5,6 +5,7 @@ import zokah from "../img/zokah.png";
 import TabMenu from "./TabMenu";
 import Slider from "./Slider";
 import InfoIcon from "@mui/icons-material/Info";
+import Modal from "./Modal";
 
 //IMAGES
 
@@ -37,8 +38,10 @@ const HomeStart = () => {
           <h2>Desenvolvedor Web</h2>
 
           <p>Desenvolvimento Web - Landing Pages, E-Commerce, WireFrames</p>
-          <div>
-            <button className={styles.btnContato}>Contato</button>
+          <div className={styles.btnContainer}>
+            {/* <button className={styles.btnContato}>Contato</button> */}
+            <Modal/>
+
             <button className={styles.btnCurriculo}>Curriculo</button>
           </div>
         </div>
@@ -89,6 +92,7 @@ const HomeStart = () => {
 
       <div className={styles.ProjectContainer}>
         <h1 className={styles.titles}>Projetos</h1>
+        <p className={styles.subtitles}>Arraste para o lado {">"} </p>
       </div>
       <Slider />
       {/* <h4 className={styles.titles}> Ver todos os projetos</h4> */}

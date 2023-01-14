@@ -41,6 +41,12 @@
     color:#4bbd5c;
 }
 
+.btnContainer{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+}
+
 .btnContato{
 background-color:#4bbd5c;
 height: 40px;
@@ -51,7 +57,6 @@ border: none;
 cursor: pointer;
 font-size: 0.7em;
 margin-right: 3%;
-margin-top: 5%;
 }
 
 .btnCurriculo{
@@ -64,7 +69,7 @@ width: 200px;
 border: solid 1px #4bbd5c;
 cursor: pointer;
 font-size: 0.7em;
-margin-top: 5%;
+margin-left: 2%;
 }
 .StartImg{
     height: 450px;
@@ -251,7 +256,11 @@ transition: all 0.2s;
 }
 
 .titles{
-    margin:5%;
+    margin:3%;
+}
+.subtitles{
+    margin-left: 3%;
+    margin-bottom:2% ;
 }
 
 .container_btn{
@@ -335,6 +344,7 @@ transition: all 0.2s;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 19%;
         
     }
 

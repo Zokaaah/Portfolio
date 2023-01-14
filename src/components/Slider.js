@@ -24,7 +24,7 @@ const images = [
   {
     image: img3,
     name: "Need Projects",
-    link: "https://need-weather.vercel.app",
+    link: "https://need-projects.vercel.app",
     desc: "Gerenciador de projetos coletivos,projeto ainda está em processo de desenvolvimento",
   },
   {
