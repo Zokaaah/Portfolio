@@ -40,7 +40,7 @@ const HomeStart = () => {
           <p>Desenvolvimento Web - Landing Pages, E-Commerce, WireFrames</p>
           <div className={styles.btnContainer}>
             {/* <button className={styles.btnContato}>Contato</button> */}
-            <Modal/>
+            <Modal />
 
             <button className={styles.btnCurriculo}>Curriculo</button>
           </div>

@@ -11,3 +11,29 @@
 .iconsContainer p{
     margin-top: 2%;
 }
+
+@media only screen and (max-width: 768px) {
+    .modalInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .icons{
+        height: 45px;
+        margin-right: 5%;
+    }
+    
+    .iconsContainer{
+        margin:auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .iconsContainer p{
+        margin-top: 2%;
+    }
+}

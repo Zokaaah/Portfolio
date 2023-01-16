@@ -56,7 +56,7 @@ export default function VerticalTabs() {
         TabIndicatorProps={{style: {background:'#4bbd5c'}}}        value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: 'divider', color:"#a6c" }}
+        sx={{ borderRight: 1, borderColor: 'divider', color:"#4bbd5c" }}
       >
         <Tab sx={{color:"#fff", padding:'15%'}} label="Cptec Inpe" {...a11yProps(0)} />
         <Tab sx={{color:"#fff", padding:'15%'}} label="Precisa Cobranças" {...a11yProps(1)} />

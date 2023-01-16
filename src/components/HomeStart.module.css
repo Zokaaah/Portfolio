@@ -332,9 +332,8 @@ transition: all 0.2s;
     }
     .StartContainer{
         display: flex;
-        padding: 20px;
+        padding: 3px;
         flex-direction: column;
-        padding: 0;
         margin-top: 13%;
         
     }
@@ -360,6 +359,25 @@ transition: all 0.2s;
     
     
     }
+    .btnContainer{
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+    }
+    .btnCurriculo{
+        background-color:transparent;
+        outline: #4bbd5c;
+        height: 40px;
+        color: #4bbd5c;
+        border-radius: 7px;
+        width: 200px;
+        border: solid 1px #4bbd5c;
+        cursor: pointer;
+        font-size: 0.7em;
+        margin:auto;
+        margin-top: 5%;
+        }
+    
 
     .CompContainer{
         display: flex;
@@ -395,6 +413,12 @@ transition: all 0.2s;
     .CompContainer p{
         color: white !important;
     }
+
+    .ExpContainer{
+         
+        width: 100%;
+        margin: auto;
+     }
 
     
     .projetoposicao1{
@@ -495,6 +519,17 @@ transition: all 0.2s;
 
 
       }
+      .btnCurriculo{
+        background-color:transparent;
+        outline: #4bbd5c;
+        height: 40px;
+        color: #4bbd5c;
+        border-radius: 7px;
+        width: 200px;
+        border: solid 1px #4bbd5c;
+        cursor: pointer;
+        margin-top: 0.7%;
+        }
   
       .SobreContainer{
           text-align: center;

@@ -9,9 +9,6 @@ import instagramIcon from "../img/instagram.png";
 import whatsapp from "../img/whatsapp.png";
 import linkedin from "../img/linkedin.png";
 
-
-
-
 import styles from "../components/modal.module.css";
 import { width } from "@mui/system";
 const style = {
@@ -23,7 +20,7 @@ const style = {
   height: 300,
   bgcolor: "#292a2c",
   color: "#fff",
-  border: "2px solid #4bbd5c",
+  border: "1px solid",
   //   borderradius:'17px',
   boxShadow: 24,
   p: 4,
@@ -36,7 +33,18 @@ export default function BasicModal() {
 
   return (
     <div>
-      <Button sx={{bgcolor:'#4bbd5c', color:'#fff', width:200, borderRadius:1.5, fontWeight:'bold'}} onClick={handleOpen}>CONTATO</Button>
+      <Button
+        sx={{
+          bgcolor: "#4bbd5c",
+          color: "#fff",
+          width: 200,
+          borderRadius: 1.5,
+          fontWeight: "bold",
+        }}
+        onClick={handleOpen}
+      >
+        CONTATO
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -44,26 +52,27 @@ export default function BasicModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Gabriel de oliveira
-          </Typography>
+          
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            <div className={styles.iconsContainer}>
-              <img className={styles.icons} src={whatsapp} alt="" />
-              <p>(12) 997068967</p>
-            </div>
+            <div className={styles.modalInfo}>
+            <Typography id="modal-modal-title" variant="h6" component="h2">
+            Contatos
+          </Typography>
+              <div className={styles.iconsContainer}>
+                <img className={styles.icons} src={whatsapp} alt="" />
+                <p>(12)997068967</p>
+              </div>
 
-            <div className={styles.iconsContainer}>
-              <img className={styles.icons} src={instagramIcon} alt="" />
-              <p>@gabriel_zokah</p>
-            </div>
+              <div className={styles.iconsContainer}>
+                <img className={styles.icons} src={instagramIcon} alt="" />
+                <p>@gabriel_zokah</p>
+              </div>
 
-            <div className={styles.iconsContainer}>
-              <img className={styles.icons} src={linkedin} alt="" />
-              <p>Gabriel Oliveira Silva</p>
+              <div className={styles.iconsContainer}>
+                <img className={styles.icons} src={linkedin} alt="" />
+                <p>Gabriel Oliveira</p>
+              </div>
             </div>
-
-           
           </Typography>
         </Box>
       </Modal>
