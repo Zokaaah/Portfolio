@@ -1,6 +1,20 @@
+.ContatoInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContatoContainer{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.ContatoContainer p{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
 .icons{
     height: 45px;
-    margin-right: 5%;
 }
 
 .iconsContainer{
@@ -12,8 +26,43 @@
     margin-top: 2%;
 }
 
+.modalInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    align-content: center;
+}
+
+.Legenda1{
+    width: 60%;
+    display: block;
+    margin-left: 10%;
+
+ 
+    
+}
+.Legenda2{
+    width: 30%;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.content p{
+    margin: 4%;
+    
+}
+
 @media only screen and (max-width: 768px) {
-    .modalInfo{
+    /* MODAL CONTATO */
+
+    .ContatoInfo{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -21,19 +70,33 @@
         align-content: center;
     }
     
-    .icons{
-        height: 45px;
-        margin-right: 5%;
-    }
-    
-    .iconsContainer{
+    .ContatoContainer{
         margin:auto;
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-bottom: 3%;
     }
-    .iconsContainer p{
+    .ContatoContainer p{
         margin-top: 2%;
+        margin-left: 10%;
+    }
+
+
+
+
+/* MODAL LEGENDA */
+    .modalInfo{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .Legenda1{
+        width: 40%;
+        margin-left: 17%;
+        
+    }
+    .Legenda2{
+        width: 40%;
     }
 }

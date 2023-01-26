@@ -1,13 +1,15 @@
 import style from "./slider.module.css";
 import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
 
 //icons slider
 import img1 from "../img/needprice.png";
 import img2 from "../img/needweather.png";
 import img3 from "../img/needprojects.png";
 import img4 from "../img/fateclub.jpg";
-
+// https://gabriel-zokah.s3.sa-east-1.amazonaws.com/bootstrap.png
 const images = [
   {
     image: img2,
@@ -58,7 +60,7 @@ const Home = () => {
             dragConstraints={{ right: 0, left: -width }}
           >
             {images.map((image) => (
-              <motion.div className={style.item} key={image}>
+              <motion.div className={style.item} key={image.link}>
                 <img src={image.image} alt="texto" />
                 <div className={style.SubContainer}>
                   <p className={style.desc}>{image.desc}</p>
@@ -71,7 +73,11 @@ const Home = () => {
           </motion.div>
         </motion.div>
         <div className={style.lastDiv}>
-          <button className={style.btn_verTodos}>Ver todos os projetos</button>
+          <button className={style.btn_verTodos}>
+            {" "}
+            <Link to={"/Projects"}>Ver todos os projetos
+            </Link>
+          </button>
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@
 
 .start1{
     text-align: left;
-    margin-top: 10%;
+    margin-top: 14%;
     font-size: 22px;
     color: white;
     margin-left: 40px;
@@ -29,7 +29,7 @@
     font-size: 18px;
 }
 
-.RedesIcon{
+/* .RedesIcon{
     display: flex;
     flex-direction: row;
 }
@@ -39,7 +39,7 @@
 
 .icon{
     color:#4bbd5c;
-}
+} */
 
 .btnContainer{
     margin-top: 7%;
@@ -57,6 +57,7 @@ border: none;
 cursor: pointer;
 font-size: 0.7em;
 margin-right: 3%;
+font-weight: bold;
 }
 
 .btnCurriculo{

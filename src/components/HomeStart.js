@@ -6,6 +6,7 @@ import TabMenu from "./TabMenu";
 import Slider from "./Slider";
 import InfoIcon from "@mui/icons-material/Info";
 import Modal from "./Modal";
+import ModalLegenda from "./ModalLegenda";
 
 //IMAGES
 
@@ -39,7 +40,6 @@ const HomeStart = () => {
 
           <p>Desenvolvimento Web - Landing Pages, E-Commerce, WireFrames</p>
           <div className={styles.btnContainer}>
-            {/* <button className={styles.btnContato}>Contato</button> */}
             <Modal />
 
             <button className={styles.btnCurriculo}>Curriculo</button>
@@ -52,14 +52,18 @@ const HomeStart = () => {
           <h1>Sobre</h1>
           <p>
             Meu nome é Gabriel de Oliveira (ou Zokah), nascido em Lorena-Sp,
-            recém formado em Análises e Desenvolvimento de Sistemas na Fatec
-            Guaratinguetá, desenvolvedor Web e administrador de redes, este é
+            formado em Análises e Desenvolvimento de Sistemas na Fatec
+            Guaratinguetá, desenvolvedor Web junior, com conhecimentos em Java Script, React JS, PHP, Node Js, SQL, consumo de Api's, etc.. este é
             meu portifólio, onde mostro um pouco de meu trabalho e expêriencias.
           </p>
           <InfoIcon />
         </div>
       </div>
       <h1 className={styles.titles}>Tecnologias e Linguagens</h1>
+      <p className={styles.subtitles}>
+        {" "}
+        <ModalLegenda />
+      </p>
 
       <div className={styles.CompContainer}>
         <div className={styles.Comp1}>
@@ -95,7 +99,6 @@ const HomeStart = () => {
         <p className={styles.subtitles}>Arraste para o lado {">"} </p>
       </div>
       <Slider />
-      {/* <h4 className={styles.titles}> Ver todos os projetos</h4> */}
     </div>
   );
 };

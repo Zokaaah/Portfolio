@@ -21,9 +21,10 @@ body{
     background-color: transparent;
     font-family: "Poppins", sans-serif;
 }
-a{
+.header a{
     text-decoration: none;
-    color:#36383F;
+    padding: 25px;
+
 }
 ul{
     list-style: none;
@@ -36,6 +37,7 @@ margin-right: 10px;
 margin-top: 5%;
 font-size: 1.2em;
 cursor: pointer;
+
 
 }
 
@@ -56,25 +58,18 @@ cursor: pointer;
 
     
 }
-/* Logo */
-.teste{
-    color: #fff;
-    margin-left:50px;
-    height: 80px;
-    width: 150px;
-    font-size: 1.5em;
-}
+
 .nav{
     width: 100%;
     background-color: #292a2c;
     overflow: hidden;
     color:#fff;
+
+
     
 
 }
 .menu a{
-    padding: 50px;
-    color:#36383F;
     height: 50px;
     
 }
@@ -84,6 +79,7 @@ cursor: pointer;
 .nav{
     max-height: 0;
     transition: max-height .5s ease-out;
+    
 
 }
 .hamb{
@@ -168,6 +164,12 @@ cursor: pointer;
         margin-right: 10px;
         font-size: 1.5em;
         
+        }
+
+        a{
+            text-decoration: none;
+            color:#36383F;
+            padding: 45px;
         }
 
 

@@ -17,10 +17,10 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 600,
-  height: 300,
+  height: 330,
   bgcolor: "#292a2c",
   color: "#fff",
-  border: "1px solid",
+  border: "none",
   //   borderradius:'17px',
   boxShadow: 24,
   p: 4,
@@ -54,21 +54,21 @@ export default function BasicModal() {
         <Box sx={style}>
           
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            <div className={styles.modalInfo}>
+            <div className={styles.ContatoInfo}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
             Contatos
           </Typography>
-              <div className={styles.iconsContainer}>
+              <div className={styles.ContatoContainer}>
                 <img className={styles.icons} src={whatsapp} alt="" />
                 <p>(12)997068967</p>
               </div>
 
-              <div className={styles.iconsContainer}>
+              <div className={styles.ContatoContainer}>
                 <img className={styles.icons} src={instagramIcon} alt="" />
                 <p>@gabriel_zokah</p>
               </div>
 
-              <div className={styles.iconsContainer}>
+              <div className={styles.ContatoContainer}>
                 <img className={styles.icons} src={linkedin} alt="" />
                 <p>Gabriel Oliveira</p>
               </div>

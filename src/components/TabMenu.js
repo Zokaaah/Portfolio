@@ -17,7 +17,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box sx={{ p: 1 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -55,34 +55,33 @@ export default function VerticalTabs() {
         textColor='#fff'
         TabIndicatorProps={{style: {background:'#4bbd5c'}}}        value={value}
         onChange={handleChange}
-        aria-label="Vertical tabs example"
-        sx={{ borderRight: 1, borderColor: 'divider', color:"#4bbd5c" }}
+        sx={{ borderRight: 0, borderColor: 'divider', color:"#4bbd5c" }}
       >
-        <Tab sx={{color:"#fff", padding:'15%'}} label="Cptec Inpe" {...a11yProps(0)} />
-        <Tab sx={{color:"#fff", padding:'15%'}} label="Precisa Cobranças" {...a11yProps(1)} />
-        <Tab sx={{color:"#fff", padding:'15%'}}label="MBD Soluções" {...a11yProps(2)} />
+        <Tab sx={{color:"#fff", padding:'1%', marginRight:'200px'}} label="Cptec Inpe" {...a11yProps(0)} />
+        <Tab sx={{color:"#fff", padding:'1%', marginRight:'200px'}} label="Precisa Cobranças" {...a11yProps(1)} />
+        <Tab sx={{color:"#fff", padding:'1%', marginRight:'200px'}}label="MBD Soluções" {...a11yProps(2)} />
 
        
       </Tabs>
-      <TabPanel sx={{color:"#4bbd5c"}} value={value} index={0}>
+      <TabPanel sx={{color:"#4bbd5c", padding:'50%'}} value={value} index={0}>
       <div>
        <h1>Cptec Inpe</h1>
        <p>2018 - 2020</p>
-       <p></p>
+       <p>Bolsista de iniciação cientifica, foi desenvolvido um projeto que tinha como objetivo, monitorar as principais bacias hidrográficas do Pais, utilizando de ferramentas e Linguagens de programação especificas como, Fortran, Shellscript e Grads</p>
        </div>
       </TabPanel>
       <TabPanel sx={{color:"#4bbd5c"}} value={value} index={1}>
       <div>
        <h1>Precisa Cobranças</h1>
        <p>2020 - 2021</p>
-       <p></p>
+       <p>Bolsista de iniciação cientifica, foi desenvolvido um projeto que tinha como objetivo, monitorar as principais bacias hidrográficas do Pais, utilizando de ferramentas e Linguagens de programação especificas como, Fortran, Shellscript e Grads</p>
        </div>
       </TabPanel>
       <TabPanel sx={{color:"#4bbd5c"}} value={value} index={2}>
       <div>
        <h1>MBD Soluções</h1>
        <p>2021 - Atual</p>
-       <p></p>
+       <p>Bolsista de iniciação cientifica, foi desenvolvido um projeto que tinha como objetivo, monitorar as principais bacias hidrográficas do Pais, utilizando de ferramentas e Linguagens de programação especificas como, Fortran, Shellscript e Grads</p>
        </div>
       </TabPanel>
    
