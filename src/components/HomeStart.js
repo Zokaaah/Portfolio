@@ -2,11 +2,11 @@ import React from "react";
 
 import styles from "./HomeStart.module.css";
 import zokah from "../img/zokah.png";
-import TabMenu from "./TabMenu";
 import Slider from "./Slider";
 import InfoIcon from "@mui/icons-material/Info";
 import Modal from "./Modal";
 import ModalLegenda from "./ModalLegenda";
+import Exp from "./Exp";
 
 //IMAGES
 
@@ -42,7 +42,7 @@ const HomeStart = () => {
           <div className={styles.btnContainer}>
             <Modal />
 
-            <button className={styles.btnCurriculo}>Curriculo</button>
+            <button className={styles.btnCurriculo}><a href="https://github.com/zokaaah">GitHub</a></button>
           </div>
         </div>
         <img className={styles.StartImg} src={zokah} alt="" />
@@ -53,7 +53,7 @@ const HomeStart = () => {
           <p>
             Meu nome é Gabriel de Oliveira (ou Zokah), nascido em Lorena-Sp,
             formado em Análises e Desenvolvimento de Sistemas na Fatec
-            Guaratinguetá, desenvolvedor Web junior, com conhecimentos em Java Script, React JS, PHP, Node Js, SQL, consumo de Api's, etc.. este é
+            Guaratinguetá, sou desenvolvedor Web junior, com conhecimentos em Java Script, React JS, PHP, Node Js, SQL, versionamento de codigo, consumo de Api's, etc.. este é
             meu portifólio, onde mostro um pouco de meu trabalho e expêriencias.
           </p>
           <InfoIcon />
@@ -91,7 +91,7 @@ const HomeStart = () => {
       <h1 className={styles.titles}>Experiência</h1>
 
       <div className={styles.ExpContainer}>
-        <TabMenu className="ConteudoTab" />
+        <Exp className="ConteudoTab" />
       </div>
 
       <div className={styles.ProjectContainer}>

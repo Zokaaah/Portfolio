@@ -64,13 +64,17 @@ font-weight: bold;
 background-color:transparent;
 outline: #4bbd5c;
 height: 40px;
-color: #4bbd5c;
+color: #4bbd5c !important;
 border-radius: 7px;
 width: 200px;
 border: solid 1px #4bbd5c;
 cursor: pointer;
-font-size: 0.7em;
+font-size: 0.5em;
 margin-left: 2%;
+}
+
+.btnCurriculo a{
+    color: #4bbd5c !important;
 }
 .StartImg{
     height: 450px;

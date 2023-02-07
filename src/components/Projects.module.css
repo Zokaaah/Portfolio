@@ -1,5 +1,16 @@
-body{
-min-height: 100%;
+.projects{
+    height: 100%;
+    background-color: transparent;
+    margin:auto
+}
+
+.projectsTitle{
+    margin: 4%;
+}
+.projectsSubTitle{
+    margin-left: 4% !important;
+    margin-top: -3%;
+
 }
 
 .btnProjeto{
@@ -53,6 +64,15 @@ margin: auto;
 
 @media only screen and (max-width: 768px) {
 
+    .projectsTitle{
+        margin: 13%;
+    }
+    .projectsSubTitle{
+        margin-left: 13% !important;
+        margin-top: -10%;
+    
+    }
+
     .projectContainer{
         margin-top:5%;    
         display: flex;
@@ -99,23 +119,56 @@ margin: auto;
 
     
 
-
-
 }
-
 @media (min-width: 1920px) and (max-width: 2560px)  {
+    .btnProjeto{
+        background-color:#273238;
+        color: #fff !important;
+        font-size: 1.2em;
+        border-radius: 4px;
+        padding: 2% !important;
+        
+        margin-top: 13%;
+        margin-right: 1%;
+    
+    }
+    
+    
+    .projectContainer{
+    margin-top:5%;    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    max-width: 97%;
+    flex-wrap:wrap !important;
+    padding: 2%;
+    
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    }
+    .projectContainer p{
+        font-size: 22px;
+        text-align: left;
+        width: 80%;
+        margin-bottom: 5%;
+    
+        
+    }
+    .projectcard{
+        width: 50%;
+        margin-top: 5%;
+        align-items: center;
+    }
+    
     .image{
-        width: 700px;
-        height: 340px;
+        width: 80%;
+        height: 350px;
         margin-right: 2%;
         border-radius: 10px;
     
     }
-
-    .projectContainer p{
-        font-size: 16px;
-    }
-
 }
+
 
 

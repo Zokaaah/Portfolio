@@ -5,16 +5,16 @@
 
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #fff !important;
 }
 
 a:visited{
-  text-decoration: none;
-  color:red;
+  text-decoration: none !important;
 }
 
 a:link{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 body{

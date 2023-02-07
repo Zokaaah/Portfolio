@@ -46,11 +46,18 @@ export default function BasicModal() {
     <div>
       <Button
         sx={{
-          bgcolor: "transparent",
+          bgcolor: "rgb(39, 50, 56)",
           color: "#fff",
           width: 200,
           borderRadius: 1.5,
+          border:'none',
           fontWeight: "bold",
+          "&:hover": {
+            color: '#4bbd5c',
+            border:'solid 1px #4bbd5c',
+
+            backgroundColor: 'rgb(39, 50, 56)"'
+          },
         }}
         onClick={handleOpen}
       >

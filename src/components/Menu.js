@@ -35,12 +35,18 @@ const Menu = ({ children }) => {
         <nav className={responsivo.nav}>
           <ul className={responsivo.menu}>
             <li>
-              <Link to={"Projects"}>Projetos</Link>
+              <Link
+                to={"Projects"}
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
+                Projetos
+              </Link>
             </li>
 
-            <li>Experiência</li>
             <li>
-              <Link to={"/"}>Home</Link>
+              <Link to={"/"} style={{ textDecoration: "none", color: "#fff" }}>
+                Home
+              </Link>
             </li>
           </ul>
         </nav>

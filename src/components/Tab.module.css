@@ -1,0 +1,134 @@
+.btn_tab{
+    background-color: #292a2c;
+    color:#fff;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 2%;
+}
+
+.btn_tab:hover{
+    background-color: #fff;
+    color:#292a2c;
+    border: none;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.tab_container{
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+
+    background-color: rgb(39, 50, 56);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+.conteudo{
+width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .tab_container{
+        display: flex;
+        flex-direction: column;
+        padding: 4%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+    
+        background-color: rgb(39, 50, 56);
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+    }
+
+    .btn_tab{
+        background-color: #292a2c;
+        color:#fff;
+        border: none;
+        height: 50px;
+        width: 150px;
+        margin-bottom: 2%;
+    }
+
+    .btn_tab:hover{
+        background-color: #fff;
+        color:#292a2c;
+        border: none;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .btn_tab{
+        background-color: #292a2c;
+        color:#fff;
+        border: none;
+        height: 70px;
+        width: 180px;
+        margin-bottom: 2%;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .btn_tab:hover{
+        background-color: #fff;
+        color:#292a2c;
+        border: none;
+        height: 70px;
+        width: 180px;
+        text-align: center;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+    
+    .tab_container{
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+    
+        background-color: rgb(39, 50, 56);
+    }
+
+    .tab_container p{
+        font-size: 23px;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        font-size: 24px !important;
+        height: 100%;
+    }
+    
+    .conteudo{
+    width: 80%;
+    }
+}

@@ -8,6 +8,8 @@ import Modal from "@mui/material/Modal";
 import instagramIcon from "../img/instagram.png";
 import whatsapp from "../img/whatsapp.png";
 import linkedin from "../img/linkedin.png";
+import email from "../img/email.png";
+
 
 import styles from "../components/modal.module.css";
 import { width } from "@mui/system";
@@ -40,6 +42,11 @@ export default function BasicModal() {
           width: 200,
           borderRadius: 1.5,
           fontWeight: "bold",
+          "&:hover": {
+            color: '#fff',
+            border:'solid 1px #4bbd5c',
+            backgroundColor: 'rgb(39, 50, 56)"'
+          },
         }}
         onClick={handleOpen}
       >
@@ -60,12 +67,12 @@ export default function BasicModal() {
           </Typography>
               <div className={styles.ContatoContainer}>
                 <img className={styles.icons} src={whatsapp} alt="" />
-                <p>(12)997068967</p>
+                <p><a href="https://web.whatsapp.com/send?phone=5512997068967">(12)997068967</a></p>
               </div>
 
               <div className={styles.ContatoContainer}>
-                <img className={styles.icons} src={instagramIcon} alt="" />
-                <p>@gabriel_zokah</p>
+                <img className={styles.icons} src={email} alt="" />
+                <p>gabriel.oliveira_012@hotmail.com</p>
               </div>
 
               <div className={styles.ContatoContainer}>
