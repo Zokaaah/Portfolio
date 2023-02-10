@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 import img1 from "../img/needprice.png";
 import img2 from "../img/needweather.png";
 import img3 from "../img/needprojects.png";
-import img4 from "../img/fateclub.jpg";
+import img4 from "../img/needpets.png";
 import img5 from "../img/netflix.png";
-import img6 from "../img/dropit.png";
 
 import styles from "../components/Projects.module.css";
 
@@ -38,10 +37,9 @@ const Projects = () => {
 
     {
       image: img4,
-      name: "Fateclub",
-      link: "https://need-weather.vercel.app",
-      desc: "Projeto academico desenvolvido com intuito de ser uma rede social interna dentro da instituição Fatec Guaratinguetá",
-      detalhes:"Desenvolvimento interno"
+      name: "Need Pets",
+      link: "https://need-pets.vercel.app",
+      desc: "Landing Page De petshop desenvolvido com React JS",
     },
 
     {
@@ -53,15 +51,7 @@ const Projects = () => {
 
     },
 
-    {
-      image: img6,
-      name: "Drop IT",
-      link: "https://clone-netflix-pink.vercel.app/",
-      desc: "Projeto academico desenvolvido com intuito de desenvolver um site com layout similar ao Netflix ",
-      detalhes:"Desenvolvimento interno"
-
-
-    },
+    
   ];
 
   return (

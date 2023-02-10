@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import img1 from "../img/needprice.png";
 import img2 from "../img/needweather.png";
 import img3 from "../img/needprojects.png";
-import img4 from "../img/fateclub.jpg";
+import img4 from "../img/needpets.png";
 // https://gabriel-zokah.s3.sa-east-1.amazonaws.com/bootstrap.png
 const images = [
   {
@@ -31,9 +31,9 @@ const images = [
   },
   {
     image: img4,
-    name: "Fateclub",
-    link: "https://need-weather.vercel.app",
-    desc: "Projeto academico desenvolvido com intuito de ser uma rede social interna dentro da instituição Fatec Guaratinguetá",
+    name: "Need Pets",
+    link: "https://need-pets.vercel.app",
+    desc: "Landing Page De petshop desenvolvido com React JS",
   },
 ];
 
