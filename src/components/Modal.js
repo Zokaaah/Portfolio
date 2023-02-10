@@ -10,7 +10,6 @@ import whatsapp from "../img/whatsapp.png";
 import linkedin from "../img/linkedin.png";
 import email from "../img/email.png";
 
-
 import styles from "../components/modal.module.css";
 import { width } from "@mui/system";
 const style = {
@@ -43,9 +42,9 @@ export default function BasicModal() {
           borderRadius: 1.5,
           fontWeight: "bold",
           "&:hover": {
-            color: '#fff',
-            border:'solid 1px #4bbd5c',
-            backgroundColor: 'rgb(39, 50, 56)"'
+            color: "#fff",
+            border: "solid 1px #4bbd5c",
+            backgroundColor: 'rgb(39, 50, 56)"',
           },
         }}
         onClick={handleOpen}
@@ -59,25 +58,30 @@ export default function BasicModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             <div className={styles.ContatoInfo}>
-            <Typography id="modal-modal-title" variant="h6" component="h2">
-            Contatos
-          </Typography>
+              <Typography id="modal-modal-title" variant="h6" component="h2">
+                Contatos
+              </Typography>
               <div className={styles.ContatoContainer}>
                 <img className={styles.icons} src={whatsapp} alt="" />
-                <p><a href="https://web.whatsapp.com/send?phone=5512997068967">(12)997068967</a></p>
+                <p>
+                  <a href="https://web.whatsapp.com/send?phone=5512997068967">
+                    (12)997068967
+                  </a>
+                </p>
+              </div>
+
+             
+
+              <div className={styles.ContatoContainer}>
+                <img className={styles.icons} src={linkedin} alt="" />
+                <p>Gabriel Oliveira</p>
               </div>
 
               <div className={styles.ContatoContainer}>
                 <img className={styles.icons} src={email} alt="" />
                 <p>gabriel.oliveira_012@hotmail.com</p>
-              </div>
-
-              <div className={styles.ContatoContainer}>
-                <img className={styles.icons} src={linkedin} alt="" />
-                <p>Gabriel Oliveira</p>
               </div>
             </div>
           </Typography>

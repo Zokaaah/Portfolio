@@ -8,6 +8,9 @@ const Exp = () => {
     <div>
       <h1>Cptec Inpe</h1>
 
+      <p>Abril, 2018 - Dezembro, 2020</p>
+      <br />
+
       <p>
         Bolsista de iniciação cientifica, foi desenvolvido um projeto que tinha
         como objetivo, monitorar as principais bacias hidrográficas do Pais,
@@ -26,6 +29,10 @@ const Exp = () => {
               setTabs(
                 <div>
                   <h1>Cptec Inpe</h1>
+
+                  <p>Abril, 2018 - Dezembro, 2020</p>
+                  <br />
+
                   <p>
                     Bolsista de iniciação cientifica, foi desenvolvido um
                     projeto que tinha como objetivo, monitorar as principais
@@ -46,6 +53,8 @@ const Exp = () => {
               setTabs(
                 <div>
                   <h1>Precisa Cobranças</h1>
+                  <p>Dezembro, 2020 - Novembro, 2021</p>
+                  <br />
                   <p>
                     Suporte ao usuário, administração de redes e infraestrutura,
                     tratativa de dados, manutenção do CRM da empresa, manutenção
@@ -66,6 +75,8 @@ const Exp = () => {
               setTabs(
                 <div>
                   <h1>MBD Soluções</h1>
+                  <p>Novembro, 2021 - Atual</p>
+                  <br />
                   <p>
                     Mapeamento de estrutura operacional junto ao cliente,
                     treinamento prático junto a funcionários e gestores sobre
